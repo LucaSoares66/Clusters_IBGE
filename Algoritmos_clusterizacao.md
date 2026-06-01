@@ -10,7 +10,8 @@ O objetivo é reduzir a SSD(Somas dos desvios quadráticos) geral, maximizando a
 
 O processo é repetido até que seja atingido o número de divisões requeridos.
 
-´´´pygeoda.skater(k, w, data, distance_method='euclidean', bound_vals = [],  min_bound = 0, random_seed=123456789)
+´´´
+pygeoda.skater(k, w, data, distance_method='euclidean', bound_vals = [],  min_bound = 0, random_seed=123456789)
 ´´´
 
 
@@ -40,6 +41,7 @@ dois grupos é calculada entre seus dois pontos mais afastados.
 
 Exemplo de uso:
 
-´´´redcap_clusters = pygeoda.redcap(4, queen_w, data, "fullorder-completelinkage")
+´´´
+redcap_clusters = pygeoda.redcap(4, queen_w, data, "fullorder-completelinkage")
 redcap_clusters
 ´´´
